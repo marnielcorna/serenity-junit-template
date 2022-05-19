@@ -28,8 +28,14 @@
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-junit5</artifactId>
             <version>${serenity.version}</version>
-            <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/net.serenity-bdd/serenity-junit -->
+        <dependency>
+            <groupId>net.serenity-bdd</groupId>
+            <artifactId>serenity-junit</artifactId>
+            <version>3.2.4</version>
+        </dependency>
+
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
